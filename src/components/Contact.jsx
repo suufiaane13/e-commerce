@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="text-center mt-5">
         <div className="d-flex justify-content-center">
           <img
-            src="/images/soufiane.png"
+            src={`${process.env.PUBLIC_URL}/images/laptob.jpeg`} // Corrected syntax
             alt="Profil"
             className="rounded-circle border border-5 border-light shadow-lg"
             style={{
