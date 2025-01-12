@@ -8,13 +8,14 @@ const ProductList = () => {
 
   useEffect(() => {
     const mockProducts = [
-      { id: 1, title: 'Laptop', price: 7999, image: 'images/laptob.jpeg' },
-      { id: 2, title: 'Smartphone', price: 2999, image: 'images/smartphone.jpeg' },
-      { id: 3, title: 'Headphones', price: 299, image: 'images/headphone.jpeg' },
-      { id: 4, title: 'JBL', price: 699, image: 'images/jbl.jpeg' },
-      { id: 5, title: 'I-Pad', price: 5999, image: 'images/ipad.jpeg' },
-      { id: 6, title: 'Canon Camera', price: 499, image: 'images/canon.jpeg' },
+      { id: 1, title: 'Laptop', price: 7999, image: `${process.env.PUBLIC_URL}/images/laptob.jpeg` },
+      { id: 2, title: 'Smartphone', price: 2999, image: `${process.env.PUBLIC_URL}/images/smartphone.jpeg` },
+      { id: 3, title: 'Headphones', price: 299, image: `${process.env.PUBLIC_URL}/images/headphone.jpeg` },
+      { id: 4, title: 'JBL', price: 699, image: `${process.env.PUBLIC_URL}/images/jbl.jpeg` },
+      { id: 5, title: 'I-Pad', price: 5999, image: `${process.env.PUBLIC_URL}/images/ipad.jpeg` },
+      { id: 6, title: 'Canon Camera', price: 499, image: `${process.env.PUBLIC_URL}/images/canon.jpeg` },
     ];
+ 
     setProducts(mockProducts);
   }, []);
 
