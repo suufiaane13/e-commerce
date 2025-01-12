@@ -1,0 +1,106 @@
+/* styles.css */
+.product-image {
+    width: 100%; /* Make image take up full container width */
+    height: 200px; /* Set height to a consistent size */
+    object-fit: contain; /* Ensure the entire image is visible */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1); /* Slight zoom-out effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+  }
+  
+  .card {
+    border: none; /* Remove border for cleaner look */
+    overflow: hidden; /* Prevent overflow from affecting card layout */
+  }
+  
+  .card-body {
+    text-align: center; /* Center-align text */
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333; /* Dark text color for better readability */
+  }
+/* Style élégant pour le bouton "Ajouter au panier" */
+.btn-custom {
+    background: linear-gradient(135deg, #555554, #7e7e7e); /* Dégradé d'orange */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; /* Bouton en forme de pilule */
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-custom:hover {
+    background: linear-gradient(135deg, #858585, #cecece); /* Inversion du dégradé */
+    transform: scale(1.05); /* Légère augmentation de la taille */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-custom:active {
+    transform: scale(0.95); /* Réduction pour un effet de clic */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  /* Boutons du footer */
+.footer-btn {
+    background-color: transparent; /* Par défaut, pas de fond */
+    border: 2px solid #fff; /* Bordure blanche élégante */
+    color: #fff; /* Texte blanc */
+    border-radius: 25px; /* Boutons arrondis */
+    padding: 5px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .footer-btn:hover {
+    background-color: #fff; /* Fond blanc au survol */
+    color: #000; /* Texte noir pour le contraste */
+    transform: scale(1.05); /* Légère augmentation de taille */
+  }
+  
+  .footer-btn:active {
+    transform: scale(0.95); /* Légère réduction au clic */
+    background-color: #ccc; /* Fond gris clair */
+    color: #000;
+  }
+  /* Boutons pour les réseaux sociaux */
+.btn-outline-dark, .btn-outline-success, .btn-outline-warning {
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: #e4405f; /* Couleur Instagram */
+    color: white;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #25d366; /* Couleur WhatsApp */
+    color: white;
+  }
+  
+  .btn-outline-warning:hover {
+    background-color: #fffc00; /* Couleur Snapchat */
+    color: black;
+  }
+  
