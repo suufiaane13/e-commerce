@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/e-commerce/static/css/main.4ebd88c7.css",
-    "main.js": "/e-commerce/static/js/main.1283c159.js",
+    "main.js": "/e-commerce/static/js/main.c6ad7de1.js",
     "static/media/fa-solid-900.ttf": "/e-commerce/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/e-commerce/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fa-solid-900.woff2": "/e-commerce/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/e-commerce/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/e-commerce/index.html",
     "main.4ebd88c7.css.map": "/e-commerce/static/css/main.4ebd88c7.css.map",
-    "main.1283c159.js.map": "/e-commerce/static/js/main.1283c159.js.map"
+    "main.c6ad7de1.js.map": "/e-commerce/static/js/main.c6ad7de1.js.map"
   },
   "entrypoints": [
     "static/css/main.4ebd88c7.css",
-    "static/js/main.1283c159.js"
+    "static/js/main.c6ad7de1.js"
   ]
 }
