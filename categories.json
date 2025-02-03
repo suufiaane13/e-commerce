@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Electronics",
+    "products": [
+      {
+        "id": 1,
+        "title": "Laptop",
+        "price": 7999,
+        "description": "A high-performance laptop with the latest specs for gaming and work.",
+        "image": "/images/laptop.jpeg"
+      },
+      {
+        "id": 2,
+        "title": "Smartphone",
+        "price": 2999,
+        "description": "A sleek and powerful smartphone with a stunning display and camera.",
+        "image": "images/smartphone.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Audio",
+    "products": [
+      {
+        "id": 3,
+        "title": "Headphones",
+        "price": 299,
+        "description": "Noise-canceling headphones with excellent sound quality and comfort.",
+        "image": "images/headphone.jpeg"
+      },
+      {
+        "id": 4,
+        "title": "JBL Speaker",
+        "price": 699,
+        "description": "Portable Bluetooth speaker with deep bass and high volume for outdoor use.",
+        "image": "images/jbl.jpeg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Tablets & Cameras",
+    "products": [
+      {
+        "id": 5,
+        "title": "I-Pad",
+        "price": 5999,
+        "description": "A versatile tablet for work and play with high resolution and long battery life.",
+        "image": "images/ipad.jpeg"
+      },
+      {
+        "id": 6,
+        "title": "Canon Camera",
+        "price": 499,
+        "description": "A digital camera perfect for photography enthusiasts and beginners.",
+        "image": "images/canon.jpeg"
+      }
+    ]
+  }
+]
